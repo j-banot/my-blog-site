@@ -1,5 +1,5 @@
 baseURL: 'https://janbanot.com/'
-title: My Blog
+title: Jan Banot
 paginate: 5
 theme: PaperMod
 
@@ -15,9 +15,6 @@ minify:
 
 menu:
  main:
-    - name: About me
-      url: about/
-      weight: 10
     - name: Archive
       url: archive/
       weight: 10
@@ -26,9 +23,6 @@ menu:
       weight: 10
     - name: Tags
       url: tags/
-      weight: 10
-    - name: Contact
-      url: contact/
       weight: 10
     
 outputs:
@@ -45,7 +39,7 @@ params:
 
     defaultTheme: auto
     # disableThemeToggle: true
-    ShowShareButtons: true
+    ShowShareButtons: false
     ShowReadingTime: true
     # disableSpecial1stPost: true
     displayFullLangName: true
@@ -70,11 +64,16 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "Jan Banot"
-        Content: >
-            Work in progress 🚧.
+        Title: "# Welcome to my blog"
+        Content: > 
+          I'm **Jan Banot**. I'm an QA Engineer and CS student. <br/> 
+          I'm interested in IT Security, Web 3.0 and stoicism. <br />
+          I will share here my thoughts and insights from my self and professional development journey. <br />
+          Feel free to contact me in any of the ways down below.
 
     socialIcons:
+        - name: mail
+          url: "mailto:banot.jan@gmail.com"
         - name: linkedin
           url: "https://www.linkedin.com/in/jan-banot/"
         - name: twitter
