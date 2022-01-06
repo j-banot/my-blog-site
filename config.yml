@@ -67,8 +67,8 @@ params:
         Title: "# Welcome to my blog"
         Content: > 
           I'm **Jan Banot**. I'm an QA Engineer and CS student. <br/> 
-          I'm interested in IT Security, Web 3.0 and stoicism. <br />
-          I will share here my thoughts and insights from my self and professional development journey. <br />
+          I'm interested in IT Security, Web 3.0 and Stoicism. <br />
+          I will share here my thoughts and insights from my professional and self development journey. <br />
           Feel free to contact me in any of the ways down below.
 
     socialIcons:
